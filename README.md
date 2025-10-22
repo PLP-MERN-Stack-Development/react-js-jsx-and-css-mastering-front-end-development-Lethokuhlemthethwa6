@@ -1,70 +1,58 @@
-# React.js and Tailwind CSS Assignment
+# Week 3 React Project - JSX and CSS Mastering
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+This project is part of **PLP Academy** Front-End Development module.  
+It focuses on **React JSX**, **component-based architecture**, and **CSS styling** using **Vite**.  
 
-## Assignment Overview
+The project is **deployed on Vercel** for live demonstration.
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+---
 
-## Getting Started
+## Table of Contents
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+- [Project Overview](#project-overview)  
+- [Features](#features)  
+- [Technologies Used](#technologies-used)  
+- [Project Structure](#project-structure)  
+- [Installation](#installation)  
+- [Running Locally](#running-locally)  
+- [Deployment](#deployment)  
+- [Screenshots](#screenshots)  
+- [License](#license)  
 
-## Files Included
+---
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+## Project Overview
 
-## Requirements
+This project demonstrates a React application with:
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+- Multiple pages (`Home`, `ApiList`, `Tasks`) using **React Router**  
+- Reusable components (`Button`, `Card`, `Navbar`, `Footer`, `Layout`)  
+- Theme context setup for future scalability  
+- Vite as a fast development and build tool  
+- Deployed on **Vercel** for live demonstration  
+- DEPLOYMENT LINK: https://week3-ixmap7yd7-lethokuhle-mthethwas-projects.vercel.app
+---
+
+## Features
+
+- **Multi-page navigation:** Implemented with React Router’s `<BrowserRouter>` and `<Outlet>`.  
+- **Reusable components:** Each UI element is modular and reusable.  
+- **Theme context:** Prepared for future theme toggling (light/dark mode).  
+- **Responsive layout:** Simple, clean, and responsive CSS.  
+- **Production-ready deployment:** Build and deployed via Vercel.  
+
+---
+
+## Technologies Used
+
+- **React** – Front-end library for building UI  
+- **React Router DOM** – Page routing  
+- **Vite** – Development server and build tool  
+- **CSS** – Styling components  
+- **Vercel** – Hosting and deployment  
+- **Git & GitHub** – Version control  
+
+---
 
 ## Project Structure
 
-```
-src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
-
-## Submission
-
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
-
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
-
-## Resources
-
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
