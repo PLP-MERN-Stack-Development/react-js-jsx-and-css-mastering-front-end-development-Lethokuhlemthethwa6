@@ -1,19 +1,20 @@
-import React from 'react';
 
-export default function Button({ label = "Click Me", onClick }) {
+import React from "react";
+
+export default function Button({ children, onClick }) {
   return (
     <button
       onClick={onClick}
       style={{
-        padding: "8px 16px",
-        backgroundColor: "#4f46e5",
-        color: "#fff",
+        padding: "0.5rem 1rem",
         border: "none",
-        borderRadius: "6px",
-        cursor: "pointer"
+        borderRadius: "0.25rem",
+        backgroundColor: "#4f46e5",
+        color: "white",
+        cursor: "pointer",
       }}
     >
-      {label}
+      {children || "Button"}
     </button>
   );
 }
